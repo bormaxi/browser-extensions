@@ -1,0 +1,21 @@
+#search ol li iframe
+{
+  height: 2em;
+}
+
+*[class="twitter_results"]
+{
+  display: block;
+  border-left: 1px solid rgb(211, 225, 249);
+  position: absolute;
+  right: 0px;
+  top: 0pt;
+  width: 254px;
+  margin-top: 0px;
+}
+
+*[class="twitter_results"] li *[class="message"]
+{
+  padding: 2px;
+}
+

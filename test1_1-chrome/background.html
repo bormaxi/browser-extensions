@@ -1,0 +1,25 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <script type="text/javascript" src="twitter_search.js"></script>
+    <script type="text/javascript">
+
+function onRequest(request, sender, callback) {
+  if (request.action == "searchTwitter")
+  {
+    // Колбэк из расширения может передать только один параметр,
+    // поэтому запрос и ответ вернём в объекте.
+    function extCallback(query, o)
+    {
+      callback({ query: query, result: o });
+    }
+    twitterSearchJSON(request.query, extCallback);
+  }
+};
+
+chrome.extension.onRequest.addListener(onRequest);
+      
+    </script>
+  </body>
+</html>

@@ -1,0 +1,2 @@
+function test_element(el, s) { if (el.text && el.text == s) return true; if (el.value && el.value == s) return true; return false; }
+function test_children(el, s) { var c = el.firstChild; while (c) { if (test_element(c, s)) alert(c.tagName + "," + c.id + "," + c.name + " t=" + c.text + " v=" + c.value); test_children(c, s); c = c.nextSibling; } }

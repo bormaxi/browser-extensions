@@ -1,0 +1,14 @@
+{
+  "name": "BrowserExtmaker_Test1",
+  "version": "1.0",
+  "description": "Тестовое задание на должность разработчика браузерных дополнений.",
+  "permissions": [ "http://search.twitter.com/*" ],
+  "background_page": "background.html",
+  "content_scripts": [
+    {
+      "css": [ "google.css" ],
+      "matches": [ "http://google.com/*", "http://google.ru/*", "http://*.google.com/*", "http://*.google.ru/*" ],
+      "js" : [ "console.js", "google.js", "google_chrome.js" ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+ 
+ <Description about="urn:mozilla:install-manifest">
+    <em:id>{18767797-088F-46bb-AE51-F4A2DF339190}</em:id>
+    <em:name>BrowserExtmaker_Test1</em:name>
+    <em:version>1.0</em:version>
+    <em:description>Тестовое задание на должность разработчика браузерных дополнений.</em:description>
+    <em:creator>Дмитрий Зырянов</em:creator>
+    <em:type>2</em:type>
+ 
+    <em:targetApplication>
+     <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>3.6</em:minVersion>
+        <em:maxVersion>4.2</em:maxVersion>
+     </Description>
+    </em:targetApplication>
+ </Description>     
+</RDF>

@@ -1,0 +1,2 @@
+@copy "{18767797-088F-46bb-AE51-F4A2DF339190}" "C:\Documents and Settings\Micro\Application Data\Mozilla\Firefox\Profiles\xnunzlmz.dev\extensions\" >nul
+@"C:\PFMicro\Mozilla Firefox\firefox.exe" -no-remote -p dev
